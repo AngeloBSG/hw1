@@ -1,0 +1,46 @@
+.errore{
+    font-weight: bold;
+    color: red;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#MainTitleSec{
+    display:flex;
+    justify-content: center;
+}
+
+#MainTitle{
+    font-family: 'kaisei-decol-regular';
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+#sezioneFormLog{
+    width: 25%;
+    height: 100px;
+    margin-left:1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0 5px 0;
+    font-weight: bold;
+}

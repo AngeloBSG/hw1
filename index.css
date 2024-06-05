@@ -1,0 +1,531 @@
+
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*SEZIONE NAV*/
+
+nav{
+    background-color: white;
+}
+
+#Main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Logo{
+    background-color: white;
+}
+
+#AvvisoSessioneAttiva{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#Main1{
+    display: flex;
+    flex-direction: column;
+}
+
+#Notizie{
+    width: 100px;
+    background-color: white;
+}
+
+
+#SezioneGestione{
+    display: inline;
+    height:25px;
+    width: 25%;
+    background-color: white;
+    padding-top: -5px;
+
+}
+
+.Gestione{
+    margin-top: 5px;
+    display: flex;
+    background-color: rgb(170, 181, 191);
+    border: 1px solid rgb(121, 73, 121);
+    border-radius: 3px;
+    color:black;
+    font-weight: bold;
+}
+
+#GestioneImg{
+    height: 15px;
+    width: 15px;
+    padding: 2px;
+}
+
+.Dettagli{
+    margin-top: -10px;
+    background-color: rgb(170, 181, 191);
+}
+
+.Dettagli li {
+    margin: 0.3em 0;
+    margin-left: 0px;
+    color: black;
+}
+
+.Nascosti{
+    display: none;
+}
+
+.ColoreSfondo{
+    background-color: black;
+}
+
+.DetNas{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+#Riga{
+    border-bottom: 2px solid lightslategray;
+    margin-top: 10px;
+}
+
+/*SEZIONE HEADER*/
+
+header{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+#Top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.NoDecoration{
+    text-decoration: none;
+}
+
+.Link{
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.Elemento{
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.Sottolinea:hover{
+    border-bottom: 3px solid purple;
+}
+
+
+#Spazio_Ricerca{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.BackColor{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(170, 181, 191);
+}
+
+#InputBar{
+    height: 20px;
+    margin-bottom: 1px solid black;
+}
+
+#InputBar1{
+    height: 20px;
+    margin-bottom: 1px solid black;
+}
+
+
+#SpazioMenu{
+    display: none;
+}
+
+.Menu{
+    height: 3px;
+    width: 20px;
+    margin-bottom: 3px;
+    background-color: black;
+}
+
+
+#modal-view {
+    position: absolute;
+    top: 150px;
+    left: 50;
+    height: 100%;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: column;
+}
+
+#modal-view.hidden {
+    display: none;
+}
+
+#ListaOpzioni{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+  }
+  
+
+
+/*section*/
+
+section{
+    background-color: black;
+    height: 410px;
+}
+
+#Container{
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+#SpazioIMG1{
+    background-color: cyan;
+    height: 100%;
+    width: 50%;
+}
+
+#IMG1{
+    width: 100%;
+    height: 100%;
+}
+
+#Text1A{
+    color: black;
+    margin-top: -25%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#Text1B{
+    color: black;
+    margin-bottom: 0%;
+    margin-left: 5%;
+}
+
+#Container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 50%;
+}
+
+#SpazioIMG2{
+    background-color: burlywood;
+    height: 50%;
+    width: 100%;
+}
+
+#IMG2{
+    width: 100%;
+    height: 100%;
+}
+
+#Text2{
+    color: black;
+    margin-left: 5%;
+    margin-top: -7%;
+}
+
+#Container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+}
+
+#SpazioIMG3{
+    background-color: darkkhaki;
+    height: 100%;
+    width: 50%;
+}
+
+#IMG3{
+    height: 100%;
+    width: 100%;
+}
+
+#Text3{
+    color: black;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+
+#SpazioIMG4{
+    background-color: lawngreen;
+    height: 100%;
+    width: 50%;
+}
+
+#IMG4{
+    height: 100%;
+    width: 100%;
+}
+
+#Text4{
+    color: white;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+
+.msg{
+    font-size: 30px;
+    color: red;
+}
+
+#Drink-view{
+    background-color: lightcyan;
+}
+
+#risultato{
+    display: flex;
+    flex-direction: column;
+}
+
+#SpazioThumb{
+    display: flex;
+    flex-direction: row;
+}
+
+#risultato img{
+    height: 300px;
+}
+
+#SpazioTitle{
+    margin-left: 20px;
+}
+
+#nomedrink{
+    font-size: 40px;
+}
+
+
+
+
+
+@media (max-width: 720px){
+    body{
+        background-color: white;
+    }
+    
+    /*SEZIONE NAV*/
+
+    #Main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Logo{
+        margin-top: 0px;
+    }
+
+    #Notizie{
+        display:none;
+    }
+
+    #DataLocale{
+        margin-top: 3px;
+    }
+
+    
+    #SezioneGestione{
+        display: block;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .Gestione{
+        margin-top: 0px;
+    }
+
+    .Dettagli {
+        background-color: lightgray;
+    }
+
+    #Riga{
+        border-bottom: 2px solid lightslategray;
+        margin-top: 100px;
+        margin-bottom: 5px;
+    }
+
+
+    /*SEZIONE HEADER*/
+    header{
+        height: 100px;
+        display: flex;
+        justify-content:space-between;
+        align-items:start;
+    }
+
+    #Top{
+        display: none;
+    }
+
+    /*SEZIONE MENU MOBILE*/
+
+    #SpazioMenu{
+        display: block;
+    }
+
+    #modal-view {
+        position: absolute;
+        top: 295px;
+        left: 50;
+        height: 100%;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: column;
+    }
+    
+    .ElementoMenu{
+        color: purple;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 150px;
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+
+    #Spazio_Ricerca{
+    display: block;
+    }
+    
+    
+    
+    
+    /* Section e SEZIONE FOTO*/
+    section{
+        margin-top: -30px;
+    }
+
+    #Container{
+        margin-top: 0px;
+        display: block;
+    }
+
+    #SpazioIMG1{
+        width: 100%;
+        height: 50%;
+    }
+
+    #Text1A{
+        color: black;
+        margin-top: -40%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    #Text1B{
+        color: black;
+        margin-bottom: 0%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #Container2{
+        display: block;
+        width: 100%;
+        height: 100%
+    }
+
+    #SpazioIMG2{
+        width: 100%;
+    }
+
+    #Text2{
+        color: black;
+        margin-top: -20%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #SpazioIMG3{
+        width: 50%;
+        height: 50%;
+    }
+
+    #Text3{
+        color: black;
+        margin-top: -30%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #SpazioIMG4{
+        width: 50%;
+        height: 50%;
+    }
+
+    #Text4{
+        color: white;
+        margin-top: -25%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .msg{
+        font-size: 15px;
+        color: red;
+    }
+    
+    #Drink-view{
+        background-color: lightcyan;
+        margin-top: 100px;
+    }
+    
+    #risultato{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #SpazioThumb{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #risultato img{
+        height: 200px;
+    }
+    
+    #nomedrink{
+        font-size: 30px;
+    }
+    
+    #SpazioTitle{
+        margin-left: 20px;
+    }
+    
+}

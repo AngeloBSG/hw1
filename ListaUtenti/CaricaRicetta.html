@@ -1,0 +1,35 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='CaricaRicetta.css'>
+    <title>Carica una nuova ricetta</title>
+</head>
+
+<body>
+    <nav>
+        <h1 id="MainTitle">Inserisci la tua nuova ricetta</h1>
+    </nav>
+
+    <section>
+        <div id="FormRicetta">
+            <form name="CaricaRicetta" action="CaricaRicetta.php" method="POST">
+                <label for="codiceRicetta">Codice Ricetta
+                <input type="text" id="codiceRicetta" name="codiceRicetta" placeholder="Inserisci codice della ricetta" required></label>
+                <label for="nomeRicetta">Nome Ricetta
+                <input type="text" id="nomeRicetta" name="nomeRicetta" placeholder="Inserisci nome della ricetta" required></label>
+                <label for="ingredienti">Ingredienti
+                <input type="text" id="ingredientiRicetta" name="ingredientiRicetta" placeholder="Inserisci gli ingredienti" required></label>
+                <label for="preparazione">Procedimento
+                <input type="text" id="preparazioneRicetta" name="preparazioneRicetta" placeholder="Metodo di preparazione" required></label>
+                
+                <label><input type="submit" id="submit" name="caricaRicetta" value="carica ricetta"></label>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

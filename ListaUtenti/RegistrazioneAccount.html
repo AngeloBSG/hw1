@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='RegistrazioneAccount.css'>
+    <script src='RegistrazioneAccount.js' defer></script>
+    <title>Registrazione Account</title>
+</head>
+<body background="img\Sfondo.jpg">
+    <nav>
+        <div id="MainTitleSec">
+            <h1 id="MainTitle">Benvenuto. Effettua la registrazione del tuo nuovo account.</h1>
+        </div>
+    </nav>
+    
+    <section>
+        <div id="sezioneFormReg">
+            <h1 id="TitoloRegistrazione">Crea un nuovo account.</h1>
+            <form name ="Registrazione_Utente" action="RegistrazioneAccount.php" method="post">
+                <label for="nome">Nome
+                <input type="text" id="nome" name="nome" placeholder="Inserisci nome" required></label>
+                <label for="cognome">Cognome
+                <input type="text" id="cognome" name="cognome" placeholder="Inserisci cognome" required></label>
+                <label for="email">E-mail
+                <input type="email" id="email" name="email" placeholder="Inserisci E-mail" required></label>
+                <label for="passwordUt">Password
+                <input type="password" id="passwordUt" name="passwordUt" placeholder="Inserisci password" required></label>
+                <label for="sesso">Sesso
+                <input type="sesso" id="sesso" name="sesso" placeholder="Inserisci sesso" required></label>
+                <label for="annoNascita">Anno di Nascita
+                <input type="annoNascita" id="annoNascita" name="annoNascita" placeholder="Inserisci anno di nascita" required></label>
+                
+                <label><input type="submit" name="invia" value="invia"></label>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+body{
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*nav*/
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(73, 14, 102, 0.533);
+    border-radius: 20px;
+}
+
+.Opzioni{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*section*/
+section{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#ContenitoreRicetta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#ContTitle{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Elemento{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
